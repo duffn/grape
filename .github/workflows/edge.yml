@@ -21,6 +21,7 @@ jobs:
     continue-on-error: true
     env:
       BUNDLE_GEMFILE: ${{ matrix.gemfile }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
     - uses: actions/checkout@v2

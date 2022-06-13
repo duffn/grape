@@ -83,3 +83,20 @@ jobs:
     - name: Run tests (spec/integration/multi_xml)
       if: ${{ matrix.gemfile == 'gemfiles/multi_xml.gemfile' }}
       run: bundle exec rspec spec/integration/multi_xml
+
+    - name: Coveralls
+      uses: coverallsapp/github-action@1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        flag-name: run-${{ matrix.ruby }}-${{ matrix.gemfile }}
+        parallel: true
+
+  finish:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      uses: coverallsapp/github-action@1
+      with:
+        github-token: ${{ secrets.github_token }}
+        parallel-finished: true

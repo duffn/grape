@@ -11,6 +11,7 @@
 
 #### Fixes
 
+* [#2263](https://github.com/ruby-grape/grape/pull/2263): Explicitly require `bigdecimal` and `date` - [@dblock](https://github.com/dblock).
 * [#2222](https://github.com/ruby-grape/grape/pull/2222): Autoload types and validators - [@ericproulx](https://github.com/ericproulx).
 * [#2232](https://github.com/ruby-grape/grape/pull/2232): Fix kwargs support in shared params definition - [@dm1try](https://github.com/dm1try).
 * [#2229](https://github.com/ruby-grape/grape/pull/2229): Do not collect params in route settings - [@dnesteryuk](https://github.com/dnesteryuk).
@@ -19,6 +20,7 @@
 * [#2244](https://github.com/ruby-grape/grape/pull/2244): Fix a breaking change in `Grape::Validations` provided in 1.6.1 - [@dm1try](https://github.com/dm1try).
 * [#2250](https://github.com/ruby-grape/grape/pull/2250): Add deprecation warning for `UnsupportedGroupTypeError` and `MissingGroupTypeError` - [@ericproulx](https://github.com/ericproulx).
 * [#2256](https://github.com/ruby-grape/grape/pull/2256): Raise `Grape::Exceptions::MultipartPartLimitError` from Rack when too many files are uploaded - [@bschmeck](https://github.com/bschmeck).
+* [#2264](https://github.com/ruby-grape/grape/pull/2264): Fix coveralls code coverage - [@duffn](https://github.com/duffn).
 * Your contribution here.
 
 ### 1.6.2 (2021/12/30)

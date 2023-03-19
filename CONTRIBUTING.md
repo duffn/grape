@@ -1,5 +1,4 @@
-Contributing to Grape
-=====================
+# Contributing to Grape
 
 Grape is work of [hundreds of contributors](https://github.com/ruby-grape/grape/graphs/contributors). You're encouraged to submit [pull requests](https://github.com/ruby-grape/grape/pulls), [propose features and discuss issues](https://github.com/ruby-grape/grape/issues). When in doubt, ask a question in the [Grape Google Group](http://groups.google.com/group/ruby-grape).
 
@@ -60,7 +59,7 @@ Document any external behavior in the [README](README.md).
 
 #### Update Changelog
 
-Add a line to [CHANGELOG](CHANGELOG.md) under *Next Release*. Make it look like every other line, including your name and link to your Github account.
+Add a line to [CHANGELOG](CHANGELOG.md) under _Next Release_. Make it look like every other line, including your name and link to your Github account.
 
 #### Commit Changes
 
